@@ -1,0 +1,31 @@
+.item{
+    border:1px solid #333;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding:10px;
+}
+.item img{
+    margin:0;
+    width: 230px;
+    height: 250px;
+}
+
+.item h5{
+    color:black;
+}
+
+.item .controls{
+    margin-top:12px;
+}
+.item .controls > *{
+    display: inline-block;
+}
+
+.item .controls .btn-add{
+    margin-left:20px;
+}
+
+.item:hover{
+    border: 5px solid black;
+}
